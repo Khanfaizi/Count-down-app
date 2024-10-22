@@ -2,7 +2,7 @@
 import { ChangeEvent, useEffect, useRef, useState } from "react"
 import { Input } from "../components/ui/input"
 import { Button } from "./ui/button"
-
+  
 function Countdown() {
     const [duration , setDuration] = useState<number | string >("");
     const [timeLeft , setTimeLeft] = useState<number>(0);
